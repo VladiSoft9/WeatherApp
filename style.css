@@ -1,0 +1,93 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Wform{
+    margin: 20px;
+
+}
+
+.inputCity{
+    padding: 10px;
+    font-size: 2rem;
+    font-weight: bold;
+    border: 2px solid;
+    color: brown;
+    border-radius: 10px;
+    margin: 10px;
+    width: 350px;
+}
+
+button{
+    padding: 10px 20px;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 2rem;
+    background-color: aquamarine;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(62, 128, 106);
+}
+
+.Wcard{
+    background: linear-gradient(180deg, rgb(124, 124, 214), white);
+    padding: 50px;
+    box-shadow: 2px 2px 5px;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+
+}
+
+h1{
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+p{
+    font-size: 1.5rem;
+    margin: 5px 0;
+
+}
+
+.CDisplay, .TDisplay{
+    font-size: 3rem;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.644);
+    margin-bottom: 30px;
+
+}
+
+.HDisplay, .DeDisplay, .errDisplay, .MoreData{
+    font-style: italic;
+    margin-bottom: 25px;
+}
+
+.WEmoji{
+    font-size: 8rem;
+    margin-bottom: 25px;
+}
+
+#btnMore{
+    padding: 10px 20px;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.5rem;
+    background-color: aquamarine;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
