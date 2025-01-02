@@ -71,6 +71,24 @@ function displayWeatherInfo(data) {
     WEmoji.classList.add('WEmoji')
     WEmoji.textContent = getWeatherEmoji(id)
     Wcard.appendChild(WEmoji)
+
+    if(id >= 200 && id < 600){
+        document.body.style.backgroundImage = 'url(Pictures/rain.jpg)'
+    }
+    else if(id >=600 && id < 700){
+        document.body.style.backgroundImage = 'url(Pictures/snow.jpg)'
+    }
+    else if(id === 800){
+        document.body.style.backgroundImage = 'url(Pictures/sun.jpg)'
+        
+    }
+    else if(id >=801 && id < 810){
+        document.body.style.backgroundImage = 'url(Pictures/clouds.jpg)'
+        
+    }
+    else{
+        document.body.style.backgroundImage = 'url(Pictures/default.jpg)'
+    }
 }
 
 function showAdditionalData(data) {

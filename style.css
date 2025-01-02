@@ -1,7 +1,10 @@
 body{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin: 0;
-    background-color: beige;
+    background: url(Pictures/default.jpg);
+    opacity: 0.8;
+    background-size: cover;
+    transition: background-image 1s ease-in-out;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -42,12 +45,12 @@ button:hover{
 .Wcard{
     background: linear-gradient(180deg, rgb(124, 124, 214), white);
     padding: 50px;
-    box-shadow: 2px 2px 5px;
     min-width: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
     border-radius: 10px;
+    box-shadow: 0 0 15px 5px #8bb5cc;
 
 }
 
